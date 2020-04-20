@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="toti 犬の島">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="file:///home/ninja/Dokumente/favicon.ico">
+    <title>home</title>
+</head>
+
+
+<style type="text/css">
+
+:root {
+    --wallpaper: url();
+    --background: #000000;
+    --foreground: #eeffff;
+    --color0: #2e3c43;
+    --color1: #f07178;
+    --color2: #c3e88d;
+    --color3: #ffcb6b;
+    --color4: #82aaff;
+    --color5: #c792ea;
+    --color6: #89ddff;
+    --color7: #b2ccd6;
+    --color8: #3c4d54;
+    --color9: #f07178;
+    --color10: #c3e88d;
+    --color11: #ffcb6b;
+    --color12: #82aaff;
+    --color13: #c792ea;
+    --color14: #89ddff;
+    --color15: #eeffff;
+}
+
+
+@import "./colors.css";
+@import "/home/ninja/Dokumente/colors.css"
+
+* {
+    font-size: 20px;
+}
+
+
+html {
+    /*font-size: 18px;*/
+    font-family: 'Iosevka', monospace;
+    /*font-weight: black;*/
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.box {
+    width: 700px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+}
+
+.categories {
+    float: left;
+    margin 0;
+    width: 20%;
+    text-align: left;
+}
+
+.items {
+    float: left;
+    margin 0;
+    width: 80%;
+    text-align: left;
+}
+
+.lst {
+    /*padding: 5px;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--foreground);
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+a:visited {
+    color: var(--foreground);
+}
+
+.cat {
+    font-weight: 700;
+}
+
+input {
+  background: inherit;
+  --webkit-appearance: none;
+  color: #eeee;
+  border: 1px; solid #fff; padding: 5px
+}
+
+
+</style>
+
+
+<body>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<center>
+<FORM method=GET action="http://www.google.de/search">
+<TABLE bgcolor="#000000"><tr><td>
+<A HREF="http://www.google.de"></A>
+<INPUT TYPE=text name=q size=31 maxlength=255 value="">
+<INPUT TYPE=hidden name=hl value=de>
+<INPUT type=submit name=btnG VALUE="google">
+</td></tr></TABLE>
+</FORM>
+</center>
+
+    <div class="box">
+        <div class="categories">
+            <p class="cat">Surfen</p>
+            <p class="cat">News</p>
+            <p class="cat">Other</p>
+        </div>
+        <div class="items">
+            <p class="lst">
+                <span style="color: var(--color1)">[</span><a href="https://4fuckr.com" target="_blank">4fuckr</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color3)">[</span><a href="https://www.radio.de/s/bigfmhiphop" target="_blank">bigfm</a><span style="color: var(--color3)">]</span>
+                <span style="color: var(--color6)">[</span><a href="https://www.srf.ch/play/radio/livepopup/radio-srf-virus" target="_blank">srf virus</a><span style="color: var(--color6)">]</span>
+            </p>
+            <p class="lst">
+                <span style="color: var(--color1)">[</span><a href="https://www.golem.de/" target="_blank">golem</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color5)">[</span><a href="https://heise.de" target="_blank">heise</a><span style="color: var(--color5)">]</span>
+                <span style="color: var(--color3)">[</span><a href="https://bild.de" target="_blank">bild</a><span style="color: var(--color3)">]</span>
+                <span style="color: var(--color6)">[</span><a href="https://www.stuttgarter-nachrichten.de/" target="_blank">stuttgarter nachrichten</a><span style="color: var(--color6)">]</span>
+            </p>
+            <p class="lst">
+                <span style="color: var(--color5)">[</span><a href="https://old.reddit.com/r/ProgrammerHumor/" target="_blank">programmhumor</a><span style="color: var(--color5)">]</span>
+                <span style="color: var(--color5)">[</span><a href="https://old.reddit.com/r/unixporn" target="_blank">unixporn</a><span style="color: var(--color5)">]</span>
+                <span style="color: var(--color1)">[</span><a href="https://old.reddit.com/r/linuxmemes" target="_blank">linuxmemes</a><span style="color: var(--color1)">]</span>
+                <span style="color: var(--color4)">[</span><a href="https://youtube.com/?gl=DE" target="_blank">youtube</a><span style="color: var(--color4)">]</span>
+                <span style="color: var(--color2)">[</span><a href="https://github.com" target="_blank">github</a><span style="color: var(--color2)">]</span>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
