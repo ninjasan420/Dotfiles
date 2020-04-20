@@ -6,6 +6,7 @@ You can find:
 
 - spicetify
 - EnhancedDiscord
+- neofetch cfg & ascii
 
 More to come
 
