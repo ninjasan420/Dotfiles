@@ -8,3 +8,5 @@ You can find:
 - EnhancedDiscord
 
 More to come
+
+![neofetch](https://raw.githubusercontent.com/ninjasan420/Dotfiles/master/neofetch.png)
