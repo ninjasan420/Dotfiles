@@ -7,6 +7,7 @@ You can find:
 - spicetify
 - EnhancedDiscord
 - neofetch cfg & ascii
+- Firefox chrome.css
 
 More to come
 
