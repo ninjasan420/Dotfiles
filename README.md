@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B71O84V)
+
 **Dotfiles**
 
 These are my Dotfiles - Using on KDE Neon
