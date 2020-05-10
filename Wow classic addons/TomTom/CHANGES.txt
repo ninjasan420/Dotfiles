@@ -1,0 +1,10 @@
+lightweight tag c8aaf3c2a6984df3c3818e62bac74eb68ab7ae3f v80300-1.1.2
+Author:	Ludovicus <ludovicus.maior@gmail.com>
+Date:	Thu Feb 27 15:01:23 2020 -0500
+
+commit c8aaf3c2a6984df3c3818e62bac74eb68ab7ae3f
+Author: Ludovicus <ludovicus.maior@gmail.com>
+Date:   Thu Feb 27 15:01:23 2020 -0500
+
+    Update to HereBeDragons 2.03
+

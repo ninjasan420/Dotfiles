@@ -1,0 +1,13 @@
+## Interface: 80300
+## Title: Better Vendor Price
+## Notes: Better Vendor Price with stack price information (|cFF99E5FF/bvp config|r)
+## Author: MooreaTV moorea@ymail.com
+## Version: v1.13.04
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: betterVendorPriceSaved
+## Globe: check-classic
+MoLib/MoLib.lua
+MoLib/MoLibUI.lua
+BetterVendorPrice.lua
+locale\locale.xml
