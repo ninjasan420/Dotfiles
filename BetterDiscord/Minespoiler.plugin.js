@@ -230,7 +230,7 @@ class Minespoiler {
 			}
 			if(!isEmoji) return;
 			
-			let matches = message.innerHTML.match(/\((\d+)x(\d+) with (\d+) bombs(, -?\d+ remaining)?\)/);
+			let matches = message.innerHTML.match(/\((\d+)x(\d+) mit (\d+) Bomben(, -?\d+ remaining)?\)/);
 			if(!matches) return;
 			let lost = false;
 			// check if it is flagged -> add hidden-HHr2R9 and da-hidden again
