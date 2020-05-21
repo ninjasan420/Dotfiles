@@ -25,13 +25,13 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
- 
+
 :root{
 	/* Here you can define properties for use with Glasscord. */
 
 	/* Windows-specific properties */
 	/* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
-	--glasscord-win-blur: acrylic;
+	--glasscord-win-blur: transparent;
 	/* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window.
 	   Should we work around it? */
 	--glasscord-win-performance-mode: true;
@@ -132,7 +132,7 @@
 	background-color: #e3e5e850;
 }
 
-.theme-light .container-1D34oG {   
+.theme-light .container-1D34oG {
 	background-color: transparent;
 }
 
