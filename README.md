@@ -1,5 +1,3 @@
-# [Join my Discord](https://discord.com/invite/rErSSHT "Join my Discord")
-
 **Dotfiles**
 
 These are my Dotfiles - Using on KDE Neon
